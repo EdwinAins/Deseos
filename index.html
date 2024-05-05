@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Deseos</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #02031A;
+            font-family: Arial, sans-serif;
+            background-image: url('data:image/jpeg;base64,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');
+        }
+
+        #formulario {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #e7e7e7;
+            padding: 2em;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+
+
+        #formulario button,
+        #botonMusica button {
+            margin: 5px;
+        }
+
+        .farolillo {
+            position: absolute;
+            width: 60px;
+            height: 90px;
+            background-color: #FFA500;
+            opacity: 0.8;
+            border-radius: 30% 30% 30% 30% / 50% 50% 70% 70%;
+            box-shadow: 0 7px 15px #FFA500, 0 0 5px #ff4700 inset;
+            animation: flotar 10s infinite ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .enviar {
+            padding: 1em;
+            color: #ffffff;
+            background-color: #ffa500;
+            border: 1px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .enviar:hover {
+            background-color: #ffbd44;
+        }
+
+        #mensaje {
+            padding: 1em;
+            margin-bottom: 1.5em;
+            border-radius: 10px;
+            border: 1px solid black
+        }
+
+        #botonMusica {
+            margin: 1em;
+            font-size: 19px;
+            padding: 0.5em;
+        }
+
+        @keyframes flotar {
+
+            0%,
+            {
+            transform: translateY(0) scale(1);
+            opacity: 0.9;
+        }
+
+        100% {
+            transform: translateY(-150vh) scale(1.2);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <button onclick="PlayMusic()" class="enviar" id="botonMusica">🔊</button>
+    <div id="formulario">
+        <input type="text" id="mensaje" placeholder="Escribe tu deseo" maxlength="100">
+        <div style="display: flex; ">
+            <button onclick="enviarFarolillo()" class="enviar">Enviar Deseo</button>
+
+        </div>
+
+    </div>
+
+
+    <audio id="musicaDeFondo" preload="auto" autoplay loop>
+        <source type="audio/mp3">
+    </audio>
+
+    <div id="contenedorMensajes"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script>
+        // Configuración de Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyAm9yrQAM5RbTPc8yN09sBm9Uvn_qV4YOw",
+            authDomain: "farolillos-54b60.firebaseapp.com",
+            databaseURL: "https://farolillos-54b60-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "farolillos-54b60",
+            storageBucket: "farolillos-54b60.appspot.com",
+            messagingSenderId: "178008380112",
+            appId: "1:178008380112:web:a0b640242c3df15bd1c4d5"
+        };
+
+        // Inicializa Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+
+        function cargarMensajes() {
+            db.collection("deseos").orderBy("timestamp", "desc").limit(100)
+                .get()
+                .then((querySnapshot) => {
+                    const contenedorMensajes = document.getElementById('contenedorMensajes');
+                    contenedorMensajes.innerHTML = ''; // Limpiar contenedor
+                    console.log(querySnapshot)
+                    for (let i = 0; i < (100 - (querySnapshot.docs.length - 1)); i++) { // Genera 100 farolillos
+                        crearFarolillo();
+                    }
+                    querySnapshot.forEach((doc) => {
+                        const data = doc.data();
+                        const div = document.createElement('div');
+                        div.classList.add('mensaje');
+                        div.innerHTML = `<b>${data.deseo}:</b>`; // Usuario en negrita y color azul
+                        contenedorMensajes.appendChild(div);
+                        crearFarolillo(data.deseo, false);
+                    });
+
+                });
+        }
+
+        function enviarFarolillo() {
+            const mensaje = document.getElementById('mensaje').value;
+            if (mensaje) {
+                crearFarolillo(mensaje, true);
+                document.getElementById('mensaje').value = ''; // Limpiar el campo de texto
+                document.getElementById('formulario').style.display = 'none';
+                document.getElementById('botonMusica').style.display = 'block';
+                if (mensaje === "") {
+                    alert("Por favor, completa ambos campos.");
+                    return;
+                }
+
+                db.collection("deseos").add({
+                    deseo: mensaje,
+                    timestamp: firebase.firestore.FieldValue.serverTimestamp()
+                })
+                    .then(function (docRef) {
+                        console.log("Documento escrito con ID: ", docRef.id);
+                        document.getElementById('mensaje').value = '';
+                    })
+                    .catch(function (error) {
+                        console.error("Error añadiendo documento: ", error);
+                    });
+            }
+
+        }
+
+        function crearFarolillo(texto = '', personalizado = false) {
+            const farolillo = document.createElement("div");
+            farolillo.className = "farolillo";
+            farolillo.style.left = `${Math.random() * window.innerWidth}px`;
+            if (personalizado) {
+                farolillo.style.top = `100vh`;
+                farolillo.innerHTML = `<span>${texto}</span>`;
+                farolillo.style.color = '#000000';
+                farolillo.style.backgroundColor = '#ff8a00'
+            } else {
+                farolillo.style.top = `100vh`;
+                farolillo.innerHTML = `<span style='overflow: hidden;'>${texto}</span>`;
+            }
+            farolillo.style.animationDuration = `${Math.random() * 20 + 10}s`;
+            farolillo.style.animationDelay = personalizado ? `0s` : `-${Math.random() * 5}s`;
+
+            document.body.appendChild(farolillo);
+        }
+
+        window.onload = () => {
+            cargarMensajes();
+
+        };
+
+        function PlayMusic() {
+
+            var botonMusica = document.getElementById("botonMusica");
+            var play = document.getElementById("musicaDeFondo");
+
+
+            if (botonMusica.innerText == '🔇') {
+
+                botonMusica.innerText = '🔊';
+                play.pause();
+
+            } else {
+                botonMusica.innerText = '🔇';
+                play.play();
+            }
+
+
+
+
+        }
+    </script>
+
+</body>
+
+</html>
